@@ -1,0 +1,9 @@
+.containerItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 35%; */
+}
+img{
+    width: 70%;
+}
