@@ -10,4 +10,11 @@ export class ItemComponent {
  @Input()titulo:string ='Titulo VACILON';
  @Input() precio:number=90
 
+ bandera:boolean=false
+
+
+ mostrarContenidoExtra(){
+  this.bandera=true;
+ }
+
 }

@@ -2,4 +2,9 @@
     <img [src]="imagen" alt="" srcset=""/>
     <h3>{{titulo}}</h3>
     <p>{{precio}}</p>
+    <div *ngIf="bandera">
+        <h4>Elemento muy muy premium</h4>
+        <h5>Aproveche ya!!!!</h5>
+    </div>
+    <button (click)="mostrarContenidoExtra()">Mostrar/Ocultar</button>
 </div>
