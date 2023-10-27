@@ -1,0 +1,4 @@
+<div class="d-flex flex-wrap justify-content-evenly ">
+    <button (click)="cargarVideos()">Cargar Videos</button>
+    <app-cards *ngFor="let video of data" [info]="video"></app-cards>
+</div>
